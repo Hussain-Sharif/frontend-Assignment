@@ -1,0 +1,40 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.container li{
+    background-color: rgba(0, 0, 0, 0.652);
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 1px;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+#item1{
+    width: 49%;
+}
+#item2{
+    width: 49%;
+}
+#item3{
+    width: 9%;
+}
+#item4{
+    width: 89%;
+}
